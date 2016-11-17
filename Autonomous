@@ -39,6 +39,7 @@ public class newRobotThree extends LinearOpMode {
         float hsvValues[] = {0F, 0F, 0F};
 
         led = hardwareMap.led.get("led");
+        CSensor = hardwareMap.colorSensor.get("CSensor");
 
         waitForStart();
 
